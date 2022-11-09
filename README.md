@@ -4,6 +4,7 @@
 The broker queue data is available in Refinitiv Real-time feed and can be retrieved by Refinitiv's APIs. In this article, we're going to retrieve the data of Hong Kong Stock Exchange Broker Queue Page by using Refinitiv Real-time SDK (RTSDK): Enterprise Message API (EMA) – Java to create the consumers and use them to subscribe to the data we’re interested “Broker Information” to create mapping between Broker ID and Broker Name/Broker Short Name and the data of “Broker Queue” that contains the broker ID of brokers in the order queue with orders of the best bid/ask price minus/plus 'n' spread(s).
 
 _A screenshot of the broker queue data_
+
 ![image](https://user-images.githubusercontent.com/89068039/200814341-7d0272c2-52f6-4e58-a3f1-658d335ff634.png)
 
 ## <a id="Prerequisite"></a>Prerequisite
